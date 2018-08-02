@@ -10,7 +10,6 @@
     "build": "webpack --progress --profile --bail",
     "watch": "env-cmd ./dev.env yarn build --watch",
     "commitmsg": "validate-commit-msg",
-    "prepush": "yarn lint",
     "postmerge": "yarn"
   },
   "repository": {
