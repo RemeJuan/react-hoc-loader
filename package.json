@@ -1,0 +1,53 @@
+{
+  "name": "hoc-loader",
+  "version": "1.0.0",
+  "description": "HOC (Higher Order Component) Loader for Redux Containers",
+  "main": "build/index.js",
+  "scripts": {
+    "compile": "projectz compile",
+    "postversion": "git push && git push --tags && npm publish",
+    "prepare": "env-cmd ./prod.env yarn build",
+    "build": "webpack --progress --profile --bail",
+    "watch": "env-cmd ./dev.env yarn build --watch",
+    "commitmsg": "validate-commit-msg",
+    "prepush": "yarn lint",
+    "postmerge": "yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RemeJuan/hoc-loader.git"
+  },
+  "keywords": [
+    "hoc",
+    "hoc loader",
+    "higher order component",
+    "react hoc",
+    "redux hoc",
+    "react redux"
+  ],
+  "author": "2018+ Reme Le Hane (reme.lehane@gmail.com) (https://www.remelehane.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RemeJuan/hoc-loader/issues"
+  },
+  "homepage": "https://github.com/RemeJuan/hoc-loader.",
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "awesome-typescript-loader": "^5.2.0",
+    "env-cmd": "^8.0.2",
+    "husky": "^0.14.3",
+    "lodash": "^4.3.0",
+    "projectz": "^1.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^3.0.1",
+    "validate-commit-msg": "^2.14.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "maintainers": [],
+  "contributors": [
+    "Reme Le Hane (http://www.remelehane.me)"
+  ]
+}

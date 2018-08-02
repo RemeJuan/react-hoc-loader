@@ -1,0 +1,31 @@
+{
+	"title": "HOC Loader",
+	"name": "hoc-loader",
+	"homepage": "https://www.remelehane.me",
+	"description": "HOC (Higher Order Component) Loader for Redux Containers",
+	"license": "MIT",
+	"browsers": true,
+	"author": "2018+ Reme Le Hane (reme.lehane@gmail.com) (https://www.remelehane.me)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RemeJuan/hoc-loader.git"
+	},
+	"bugs": {
+		"url": "https://github.com/RemeJuan/hoc-loader/issues"
+	},
+	"badges": {
+		"list": [
+			"nodeico",
+      "---",
+      "travisci",
+			"npmversion",
+			"npmdownloads",
+			"githubfollow",
+			"githubstar",
+			"daviddm",
+		],
+		"config": {
+			"githubUsername": "RemeJuan"
+		}
+	}
+}
