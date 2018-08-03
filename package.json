@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:RemeJuan/hoc-loader.git"
+    "url": "git@github.com:RemeJuan/react-hoc-loader.git"
   },
   "keywords": [
     "hoc",
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/RemeJuan/react-hoc-loader/issues"
   },
-  "homepage": "https://github.com/RemeJuan/hoc-loader.",
+  "homepage": "https://github.com/RemeJuan/react-hoc-loader.",
   "devDependencies": {
     "@types/react": "^16.4.7",
     "awesome-typescript-loader": "^5.2.0",
