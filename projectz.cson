@@ -1,6 +1,6 @@
 {
-	"title": "HOC Loader",
-	"name": "hoc-loader",
+	"title": "React HOC Loader",
+	"name": "react-hoc-loader",
 	"homepage": "https://www.remelehane.me",
 	"description": "HOC (Higher Order Component) Loader for Redux Containers",
 	"license": "MIT",
@@ -8,10 +8,10 @@
 	"author": "2018+ Reme Le Hane (reme.lehane@gmail.com) (https://www.remelehane.me)",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RemeJuan/hoc-loader.git"
+		"url": "https://github.com/RemeJuan/react-hoc-loader.git"
 	},
 	"bugs": {
-		"url": "https://github.com/RemeJuan/hoc-loader/issues"
+		"url": "https://github.com/RemeJuan/react-hoc-loader/issues"
 	},
 	"badges": {
 		"list": [

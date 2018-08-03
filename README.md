@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>HOC Loader</h1>
+<h1>React HOC Loader</h1>
 
 <!-- /TITLE -->
 
@@ -14,12 +14,12 @@ HOC (Higher Order Component) Loader for Redux Containers
 
 <!-- BADGES/ -->
 
-<span class="badge-nodeico"><a href="https://www.npmjs.com/package/hoc-loader" title="Nodei.co badge"><img src="https://nodei.co/npm/hoc-loader.png" alt="Nodei.co badge" /></a></span>
+<span class="badge-nodeico"><a href="https://www.npmjs.com/package/react-hoc-loader" title="Nodei.co badge"><img src="https://nodei.co/npm/react-hoc-loader.png" alt="Nodei.co badge" /></a></span>
 <br class="badge-separator" />
-<span class="badge-travisci"><a href="http://travis-ci.org/RemeJuan/hoc-loader" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/RemeJuan/hoc-loader/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/hoc-loader" title="View this project on NPM"><img src="https://img.shields.io/npm/v/hoc-loader.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/hoc-loader" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/hoc-loader.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/RemeJuan/hoc-loader" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/RemeJuan/hoc-loader.svg" alt="Dependency Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/RemeJuan/react-hoc-loader" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/RemeJuan/react-hoc-loader/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/react-hoc-loader" title="View this project on NPM"><img src="https://img.shields.io/npm/v/react-hoc-loader.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/react-hoc-loader" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/react-hoc-loader.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/RemeJuan/react-hoc-loader" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/RemeJuan/react-hoc-loader.svg" alt="Dependency Status" /></a></span>
 
 <!-- /BADGES -->
 
@@ -27,11 +27,11 @@ HOC (Higher Order Component) Loader for Redux Containers
 ## Installation
 
 ```
-yarn add hoc-loader
+yarn add react-hoc-loader
 
 or
 
-npm install hoc-loader
+npm install react-hoc-loader
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ If there is no component, but you would like to display a simple text message, t
 
 ```javascript
 import { connect } from 'react-redux';
-import HOCLoader from 'hoc-loader';
+import HOCLoader from 'react-hoc-loader';
 import LoadingScreen from './loading-screen';
 import Component from './components';
 
@@ -75,7 +75,7 @@ const Container = connect(
 
 <h2>History</h2>
 
-<a href="https://github.com/RemeJuan/hoc-loader/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/RemeJuan/react-hoc-loader/releases">Discover the release history by heading on over to the releases page.</a>
 
 <!-- /HISTORY -->
 
