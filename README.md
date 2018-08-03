@@ -36,29 +36,38 @@ npm install hoc-loader
 
 ## Usage
 
+Component sits within the container and fires off a function in a similar way to which `componentWillMount` would. 
+
+An optional loading indicator can be passed from a state key to determine if a loading indicator should be displayed before rendering the intended component.
+
+If there is no component, but you would like to display a simple text message, then pass undefined as the 4th argument and a string message as the 5th.
+
+### Example:
+
 ```javascript
+import { connect } from 'react-redux';
 import HOCLoader from 'hoc-loader';
+import LoadingScreen from './loading-screen';
+import Component from './components';
+
+const mapStateToProps = ({ reducer }) => ({
+  // State key to determine if a load is in progress
+  isLoading: reducer.isLoading
+});
+
+export const mapDispatchToProps = dispatch => ({
+  onLoad() {
+    // Function to fire off when container first loads
+    dispatch({ type: 'LOADING_DATA' });
+  },
+});
 
 ...
-/**
-* Cached fetch wrapper/helper
-* @param {string} url URL being fetched
-* @param {*} options fetch options
-* @param {number} expiry time in seconds for caching, default = 300 (5 minutes)
-*/
-const url = 'API PATH';
-const options = {
-  headers: {
-    Accept: 'application/json',
-    'Content-Type': 'application/json',
-  }
-};
+const Container = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(HOCLoader(Component, 'onLoad', 'isLoading', LoadingScreen));
 
-const response = cacheFetch(url, options);
-// or
-const response = cacheFetch(url, options, 600);
-
-return response.json();
 ...
 ```
 
